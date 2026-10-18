@@ -164,6 +164,17 @@ uv run python scripts/make_diagrams.py            # the figures above
 uv run python scripts/build_demo_pack.py          # the demo UI's replay pack
 ```
 
+To check every number in this README on your own machine in about twenty seconds, with no imagery
+and no network:
+
+```bash
+uv run python scripts/selftest.py
+```
+
+It recomputes the held-out metrics, the operating point and both agent-layer runs from the committed
+artefacts, and confirms the demo UI is displaying exactly the probabilities the evaluation produced.
+25 checks; exit code 0 means everything reported here reproduced.
+
 Only the two `extract_features.py` steps need imagery; they download into a git-ignored cache and
 take about forty minutes per split. Everything else runs in seconds from the **committed** per-frame
 feature tables in `evaluation/`, so every number here can be recomputed without re-downloading a
