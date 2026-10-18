@@ -5,7 +5,9 @@ Nelson Lai, City College of San Francisco
 Repository: <https://github.com/chinesepowered/hack-opencv1>
 
 Camera imagery: **HPWREN FIgLib**, credit reference <https://www.hpwren.ucsd.edu/> as their terms
-require. No FIgLib imagery is redistributed in this repository. See [`DATA.md`](DATA.md).
+require. No original FIgLib frame is redistributed in this repository; the figures below and the
+demo pack in `web/pack/` are derived, annotated renderings, which their terms permit with that
+credit. See [`DATA.md`](DATA.md).
 
 ---
 

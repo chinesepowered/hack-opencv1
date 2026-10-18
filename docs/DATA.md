@@ -17,10 +17,15 @@ ignition: 81 frames spaced 60 seconds apart, from 40 minutes before the plume be
 > "This data is provided as-is, no guarantees for anything is included."
 
 **How we comply.** The credit reference appears in this file, in the project `README.md`, in the
-technical report, in the web UI footer, and on screen in the demo video. Frames are cached locally
-under `data/cache/` which is git-ignored, so **this repository redistributes no FIgLib imagery**.
-Figures in the report are derived visualisations (detector overlays, plots), each carrying the
-credit.
+technical report, in the web UI header, and on screen in the demo video.
+
+**No original FIgLib frame is redistributed here.** Downloaded frames are cached under `data/cache/`,
+which is git-ignored. What *is* committed is derived work, which their terms permit with the credit
+reference: the figures in the report, and the demo pack under `web/pack/`, which holds annotated,
+downscaled, recompressed renderings (residual mask overlay, candidate boxes, horizon line) of frames
+from three sequences. `web/pack/index.json` carries the credit alongside them, and the UI displays
+it. The pack exists so a judge can run the interface without a 40-minute download; it is not a
+redistribution of the dataset and cannot substitute for it.
 
 ## Why this dataset, and what we rejected
 

@@ -7,7 +7,9 @@ honestly on held-out cameras.
 2026. No open-source licence is granted; see *Licence* below.
 
 Camera imagery: **HPWREN FIgLib**, credit reference <https://www.hpwren.ucsd.edu/> as their terms
-require. No FIgLib imagery is redistributed here; see [`docs/DATA.md`](docs/DATA.md).
+require. No original FIgLib frame is redistributed here; the committed figures and demo pack are
+derived, annotated renderings, which their terms permit with that credit. See
+[`docs/DATA.md`](docs/DATA.md).
 
 **Full technical report: [`docs/report.md`](docs/report.md).**
 
