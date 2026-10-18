@@ -22,6 +22,19 @@ rather than a simulated re-run:
 
 Both are genuine second looks at genuine imagery. Neither is described as a
 sensitivity re-run, because that is not what they are.
+
+The two history baselines
+-------------------------
+``--baseline sliding`` (the original) asks "is this candidate stronger than
+anything this camera has shown recently", using every frame older than the
+query. On a FIgLib sequence that pool is **66% post-ignition at +2400 s**, so a
+growing plume raises its own baseline and then suppresses itself. This is the
+same failure as the detector's reference-contamination bug, in a second place.
+
+``--baseline anchored`` restricts the pool to the *oldest* span of available
+history for that camera, which a later plume cannot contaminate, mirroring a
+deployment that would compare against yesterday's frames at the same hour. It
+uses only frame age, never labels.
 """
 from __future__ import annotations
 
@@ -39,6 +52,11 @@ from sentinel.features import FEATURE_NAMES  # noqa: E402
 import joblib  # noqa: E402
 
 SEQUENCE_HOURS = 80.0 / 60.0
+
+# Anchored baseline: use the oldest ANCHOR_SPAN_S seconds of a camera's
+# available history, and never a frame newer than MIN_AGE_S before the query.
+ANCHOR_SPAN_S = 1200.0
+MIN_AGE_S = 300.0
 
 
 def load(path: str):
@@ -65,11 +83,16 @@ def main() -> None:
     ap.add_argument("--heldout", default="evaluation/heldout_features.jsonl")
     ap.add_argument("--model", default="evaluation/model.joblib")
     ap.add_argument("--neighbours", default="evaluation/neighbours.json")
+    ap.add_argument("--baseline", choices=("sliding", "anchored"), default="anchored",
+                    help="history pool for the compare_history step; see module docstring")
     ap.add_argument("--threshold", type=float, default=None,
                     help="operating point; default = the fpr~0.10 point from results.json")
-    ap.add_argument("--out", default="evaluation/suppression.json")
-    ap.add_argument("--traces", default="evaluation/traces.json")
+    ap.add_argument("--out", default=None)
+    ap.add_argument("--traces", default=None)
     a = ap.parse_args()
+
+    out_path = a.out or f"evaluation/suppression_{a.baseline}.json"
+    traces_path = a.traces or f"evaluation/traces_{a.baseline}.json"
 
     bundle = joblib.load(a.model)
     model = bundle["model"]
@@ -82,15 +105,17 @@ def main() -> None:
         res = json.load(open("evaluation/results.json"))
         row = min(res["sweep"], key=lambda r: abs(r["target_fpr"] - 0.10))
         thr = float(row["threshold"])
-    print(f"operating point threshold = {thr:.4f}")
+    print(f"operating point threshold = {thr:.4f}   baseline = {a.baseline}")
 
     # Fast lookup: (sequence, offset) -> model probability
     pmap: dict[tuple[str, float], float] = {}
     for s, o, p in zip(g, off, prob):
         pmap[(s, float(o))] = float(p)
     seq_offsets: dict[str, list[float]] = {}
-    for s, o in zip(g, off):
+    label_map: dict[tuple[str, float], int] = {}
+    for s, o, lab in zip(g, off, y):
         seq_offsets.setdefault(s, []).append(float(o))
+        label_map[(s, float(o))] = int(lab)
     for s in seq_offsets:
         seq_offsets[s].sort()
 
@@ -111,16 +136,33 @@ def main() -> None:
     def neighbours_of(seq: str) -> list[str]:
         return list(nbrs.get(seq, []))
 
+    # Instrumentation: how much of each history pool is post-ignition? This is
+    # the number that explains the sliding baseline's failure, so it is measured
+    # rather than asserted.
+    pool_frames = {"total": 0, "post_ignition": 0}
+
     def history(seq: str, offset_s: int) -> list[float]:
-        """This camera's own earlier frames, as its routine-noise baseline."""
         offs = seq_offsets.get(seq, [])
-        return [pmap.get((seq, o), 0.0) for o in offs if o < offset_s - 300]
+        if not offs:
+            return []
+        if a.baseline == "sliding":
+            pool = [o for o in offs if o < offset_s - MIN_AGE_S]
+        else:
+            # Anchored: only the oldest span of this camera's history. A plume
+            # that appears later cannot raise this baseline. Uses frame age
+            # only - no labels - so it is legitimate at inference time.
+            span_end = offs[0] + ANCHOR_SPAN_S
+            pool = [o for o in offs if o <= span_end and o < offset_s - MIN_AGE_S]
+        pool_frames["total"] += len(pool)
+        pool_frames["post_ignition"] += sum(label_map.get((seq, o), 0) for o in pool)
+        return [pmap.get((seq, o), 0.0) for o in pool]
 
     policy = VerificationPolicy(rescore=rescore, neighbours=neighbours_of, history=history)
 
     raw_alerts, verified_alerts = [], []
     traces = []
     blocked = 0
+    suppress_rules: dict[str, dict[str, int]] = {}
     for s, o, p, lab in zip(g, off, prob, y):
         if p < thr:
             continue
@@ -137,6 +179,11 @@ def main() -> None:
             # most of the apparent recall collapse was this bug, not the loop.
             outcome.action = "suppress" if outcome.action == "escalate" else "escalate"
             outcome.reason = f"guardrail correction ({why})"
+        if outcome.action == "suppress":
+            rule = next((t.detail.get("rule", "?") for t in reversed(outcome.trace)
+                         if t.kind == "decision"), "guardrail")
+            d = suppress_rules.setdefault(rule, {"true_smoke": 0, "clear": 0})
+            d["true_smoke" if lab == 1 else "clear"] += 1
         if len(traces) < 400:
             traces.append({"sequence": s, "offset_s": float(o), "label": int(lab),
                            "detector_confidence": round(float(p), 4), **outcome.as_dict()})
@@ -144,11 +191,16 @@ def main() -> None:
             verified_alerts.append((s, float(o), float(p), int(lab)))
 
     def summarise(alerts, name):
-        seqs = sorted({s for s, _, _, _ in alerts})
         fa = [(s, o) for s, o, _, lab in alerts if lab == 0]
         tp = [(s, o) for s, o, _, lab in alerts if lab == 1]
         all_seqs = sorted(set(g))
-        pre_hours = len(all_seqs) * SEQUENCE_HOURS / 2.0
+        # Exposure counts only the cameras that actually contributed scored
+        # pre-ignition frames, which is what evaluate.py does. Counting all 43
+        # inflates the denominator and understates the false-alarm rate, and
+        # made this script disagree with the headline number at the same
+        # threshold (60.3 vs 86.4 per camera-day) for no real reason.
+        exposed = [s for s in all_seqs if ((g == s) & (off < 0)).any()]
+        pre_hours = len(exposed) * SEQUENCE_HOURS / 2.0
         fa_day = len(fa) / (pre_hours / 24.0) if pre_hours else float("nan")
         detected = sorted({s for s, _, _, lab in alerts if lab == 1})
         lat = []
@@ -171,24 +223,37 @@ def main() -> None:
         }
 
     before = summarise(raw_alerts, "detector_only")
-    after = summarise(verified_alerts, "detector_plus_agent")
+    after = summarise(verified_alerts, f"detector_plus_agent_{a.baseline}")
     reduction = (1 - after["false_alarms_per_camera_day"] /
                  max(before["false_alarms_per_camera_day"], 1e-9)) * 100
+    recall_cost = (1 - after["recall_frames"] / max(before["recall_frames"], 1e-9)) * 100
+    pool_pollution = (100.0 * pool_frames["post_ignition"] / max(pool_frames["total"], 1))
 
     print(f"\n{'metric':<34}{'detector':>12}{'+ agent':>12}")
     for k in ("alerts_total", "false_alarm_alerts", "false_alarms_per_camera_day",
               "true_positive_alerts", "sequences_detected", "recall_frames",
               "median_latency_s", "p90_latency_s"):
         print(f"{k:<34}{str(before[k]):>12}{str(after[k]):>12}")
-    print(f"\nfalse-alarm reduction: {reduction:.1f}%")
-    print(f"guardrail blocks: {blocked}")
+    print(f"\nfalse-alarm reduction: {reduction:.1f}%   recall cost: {recall_cost:.1f}%")
+    print(f"history pool was {pool_pollution:.1f}% post-ignition frames")
+    print(f"guardrail blocks: {blocked} of {len(raw_alerts)} alerts "
+          f"({100.0 * blocked / max(len(raw_alerts), 1):.1f}%)")
+    if suppress_rules:
+        print("\nsuppressions by rule (true smoke / clear):")
+        for rule, d in sorted(suppress_rules.items(), key=lambda kv: -sum(kv[1].values())):
+            print(f"  {rule:<32} {d['true_smoke']:>5} / {d['clear']:>5}")
 
-    json.dump({"threshold": thr, "before": before, "after": after,
+    json.dump({"baseline": a.baseline, "threshold": thr, "before": before, "after": after,
                "false_alarm_reduction_pct": round(float(reduction), 2),
-               "guardrail_blocks": blocked},
-              open(a.out, "w"), indent=1)
-    json.dump(traces, open(a.traces, "w"), indent=1)
-    print(f"-> {a.out} and {a.traces} ({len(traces)} traces)")
+               "recall_cost_pct": round(float(recall_cost), 2),
+               "history_pool_post_ignition_pct": round(float(pool_pollution), 1),
+               "guardrail_blocks": blocked,
+               "guardrail_block_rate_pct": round(100.0 * blocked / max(len(raw_alerts), 1), 1),
+               "alerts_considered": len(raw_alerts),
+               "suppressions_by_rule": suppress_rules},
+              open(out_path, "w"), indent=1)
+    json.dump(traces, open(traces_path, "w"), indent=1)
+    print(f"-> {out_path} and {traces_path} ({len(traces)} traces)")
 
 
 if __name__ == "__main__":

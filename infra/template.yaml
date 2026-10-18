@@ -1,0 +1,331 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+
+# =====================================================================
+#  NEVER APPLIED. This stack has not been deployed to any AWS account.
+#
+#  The OpenCV AI Competition's $150 compute-grant round closed before we
+#  entered it, and we chose not to put a personal credit card behind a
+#  student competition entry. So this file is the design, written out in
+#  full and reviewed, and nothing more. There are no cloud benchmarks,
+#  no Graviton numbers and no live endpoint anywhere in this project,
+#  because none were ever produced. See docs/deploy.md.
+#
+#  It has NOT been validated against a real account. `sam validate`
+#  checks syntax, not that the stack would come up.
+# =====================================================================
+
+Description: >
+  Smoke Sentinel - wildfire smoke detection on fixed camera networks.
+  Frames land in S3, a container Lambda running the OpenCV 5 pipeline scores
+  them, and a human-facing API returns the score with its candidate region.
+  Designed for a student account: every control here exists to make the bill
+  small and bounded, not to make the system large.
+
+Parameters:
+  ProjectName:
+    Type: String
+    Default: smoke-sentinel
+  ImageUri:
+    Type: String
+    Description: >
+      ECR image URI for the pipeline container, built from infra/Dockerfile.
+      No image has been pushed; this has no default on purpose.
+  AlertEmail:
+    Type: String
+    Description: Where budget and alarm notifications would go.
+  MonthlyBudgetUsd:
+    Type: Number
+    Default: 20
+    Description: >
+      Hard ceiling for a student account. At 100% actual spend the budget
+      action attaches a deny policy to the Lambda execution role, which stops
+      the system rather than letting it run up a bill nobody authorised.
+
+Globals:
+  Function:
+    Timeout: 60
+    MemorySize: 2048          # OpenCV median stacking is memory bound, not CPU bound
+    Architectures: [arm64]    # Graviton: cheaper per ms for this workload, UNMEASURED here
+    Tracing: Active
+    Environment:
+      Variables:
+        PROJECT: !Ref ProjectName
+        LOG_LEVEL: INFO
+
+Resources:
+
+  # ---------------------------------------------------------------
+  # Frame landing. Cameras (or a site-local uploader) PUT frames here.
+  # ---------------------------------------------------------------
+  FrameBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "${ProjectName}-frames-${AWS::AccountId}-${AWS::Region}"
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      BucketEncryption:
+        ServerSideEncryptionConfiguration:
+          - ServerSideEncryptionByDefault:
+              SSEAlgorithm: AES256
+      LifecycleConfiguration:
+        Rules:
+          # Frames are only useful while they are recent history for the
+          # reference builder. Keeping them longer is a cost with no benefit.
+          - Id: expire-frames
+            Status: Enabled
+            ExpirationInDays: 14
+          - Id: abort-incomplete
+            Status: Enabled
+            AbortIncompleteMultipartUpload:
+              DaysAfterInitiation: 1
+      NotificationConfiguration:
+        LambdaConfigurations:
+          - Event: s3:ObjectCreated:*
+            Function: !GetAtt ScoreFunction.Arn
+            Filter:
+              S3Key:
+                Rules:
+                  - Name: suffix
+                    Value: .jpg
+
+  # Reference images and the fitted model, separate from the frame firehose
+  # so a lifecycle rule on frames can never expire the model.
+  ArtefactBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Sub "${ProjectName}-artefacts-${AWS::AccountId}-${AWS::Region}"
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      VersioningConfiguration:
+        Status: Enabled
+
+  # ---------------------------------------------------------------
+  # The pipeline itself, as a container image because OpenCV 5 plus
+  # numpy and scikit-learn exceeds the 250 MB zip layer limit.
+  # ---------------------------------------------------------------
+  ScoreFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      FunctionName: !Sub "${ProjectName}-score"
+      PackageType: Image
+      ImageUri: !Ref ImageUri
+      # Reserved concurrency is the single most important line in this file.
+      # Without it, a camera stuck in a retry loop can fan out to the account
+      # concurrency limit and spend the entire budget in minutes.
+      ReservedConcurrentExecutions: 5
+      Environment:
+        Variables:
+          ARTEFACT_BUCKET: !Ref ArtefactBucket
+          FRAME_BUCKET: !Ref FrameBucket
+          MODEL_KEY: model/model.joblib
+          # The reported operating point. Section 5 of docs/report.md.
+          SCORE_THRESHOLD: "0.7668"
+          # The verification loop is measured and NOT enabled: it cost 9.3% of
+          # recall for 7.0% fewer false alarms. See docs/report.md section 7.
+          VERIFICATION_ENABLED: "false"
+      Policies:
+        - S3ReadPolicy:
+            BucketName: !Sub "${ProjectName}-frames-${AWS::AccountId}-${AWS::Region}"
+        - S3ReadPolicy:
+            BucketName: !Sub "${ProjectName}-artefacts-${AWS::AccountId}-${AWS::Region}"
+        - CloudWatchPutMetricPolicy: {}
+      Events:
+        ScoreApi:
+          Type: Api
+          Properties:
+            RestApiId: !Ref Api
+            Path: /score
+            Method: post
+
+  FrameBucketInvokePermission:
+    Type: AWS::Lambda::Permission
+    Properties:
+      FunctionName: !GetAtt ScoreFunction.Arn
+      Action: lambda:InvokeFunction
+      Principal: s3.amazonaws.com
+      SourceAccount: !Ref AWS::AccountId
+
+  # ---------------------------------------------------------------
+  # API. A REST API rather than an HTTP API purely because usage-plan
+  # quotas (the daily ceiling below) are a REST API feature.
+  # ---------------------------------------------------------------
+  Api:
+    Type: AWS::Serverless::Api
+    Properties:
+      StageName: prod
+      TracingEnabled: true
+      MethodSettings:
+        - ResourcePath: "/*"
+          HttpMethod: "*"
+          ThrottlingBurstLimit: 10
+          ThrottlingRateLimit: 5
+          MetricsEnabled: true
+      Auth:
+        ApiKeyRequired: true
+        UsagePlan:
+          CreateUsagePlan: PER_API
+          Description: Student-account ceiling, not a capacity plan.
+          Quota:
+            Limit: 2000
+            Period: DAY
+          Throttle:
+            BurstLimit: 10
+            RateLimit: 5
+
+  # ---------------------------------------------------------------
+  # Operational alarms. The second one matters more than the first:
+  # a detector that has gone quiet looks exactly like a quiet day.
+  # ---------------------------------------------------------------
+  AlarmTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      TopicName: !Sub "${ProjectName}-alarms"
+      Subscription:
+        - Protocol: email
+          Endpoint: !Ref AlertEmail
+
+  FunctionErrorAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: !Sub "${ProjectName}-score-errors"
+      AlarmDescription: Scoring function is failing.
+      Namespace: AWS/Lambda
+      MetricName: Errors
+      Dimensions:
+        - Name: FunctionName
+          Value: !Ref ScoreFunction
+      Statistic: Sum
+      Period: 300
+      EvaluationPeriods: 1
+      Threshold: 5
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      TreatMissingData: notBreaching
+      AlarmActions: [!Ref AlarmTopic]
+
+  NoFramesAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: !Sub "${ProjectName}-no-frames"
+      AlarmDescription: >
+        No frames scored for an hour. A silent pipeline is indistinguishable
+        from a quiet fire season, so silence has to page somebody.
+      Namespace: AWS/Lambda
+      MetricName: Invocations
+      Dimensions:
+        - Name: FunctionName
+          Value: !Ref ScoreFunction
+      Statistic: Sum
+      Period: 3600
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: LessThanThreshold
+      TreatMissingData: breaching
+      AlarmActions: [!Ref AlarmTopic]
+
+  ThrottleAlarm:
+    Type: AWS::CloudWatch::Alarm
+    Properties:
+      AlarmName: !Sub "${ProjectName}-throttles"
+      AlarmDescription: >
+        Reserved concurrency is being hit, so frames are being dropped rather
+        than scored late. Raise concurrency or reduce camera cadence.
+      Namespace: AWS/Lambda
+      MetricName: Throttles
+      Dimensions:
+        - Name: FunctionName
+          Value: !Ref ScoreFunction
+      Statistic: Sum
+      Period: 300
+      EvaluationPeriods: 1
+      Threshold: 1
+      ComparisonOperator: GreaterThanOrEqualToThreshold
+      TreatMissingData: notBreaching
+      AlarmActions: [!Ref AlarmTopic]
+
+  # ---------------------------------------------------------------
+  # Budget with a real deny action. Notification alone does not stop
+  # spending; this attaches a deny policy to the execution role.
+  # ---------------------------------------------------------------
+  BudgetActionRole:
+    Type: AWS::IAM::Role
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Allow
+            Principal:
+              Service: budgets.amazonaws.com
+            Action: sts:AssumeRole
+      ManagedPolicyArns:
+        - arn:aws:iam::aws:policy/AWSBudgetsActionsWithAWSResourceControlAccess
+
+  DenyLambdaInvokePolicy:
+    Type: AWS::IAM::ManagedPolicy
+    Properties:
+      ManagedPolicyName: !Sub "${ProjectName}-budget-stop"
+      PolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: Deny
+            Action: lambda:InvokeFunction
+            Resource: !GetAtt ScoreFunction.Arn
+
+  MonthlyBudget:
+    Type: AWS::Budgets::Budget
+    Properties:
+      Budget:
+        BudgetName: !Sub "${ProjectName}-monthly"
+        BudgetType: COST
+        TimeUnit: MONTHLY
+        BudgetLimit:
+          Amount: !Ref MonthlyBudgetUsd
+          Unit: USD
+      NotificationsWithSubscribers:
+        - Notification:
+            NotificationType: ACTUAL
+            ComparisonOperator: GREATER_THAN
+            Threshold: 80
+            ThresholdType: PERCENTAGE
+          Subscribers:
+            - SubscriptionType: EMAIL
+              Address: !Ref AlertEmail
+
+  StopSpendingAction:
+    Type: AWS::Budgets::BudgetsAction
+    Properties:
+      BudgetName: !Ref MonthlyBudget
+      NotificationType: ACTUAL
+      ActionType: APPLY_IAM_POLICY
+      ActionThreshold:
+        ActionThresholdType: PERCENTAGE
+        ActionThresholdValue: 100
+      # Manual, not automatic: an automatic stop on a fire-detection system is
+      # its own kind of hazard. A human decides, having been told.
+      ApprovalModel: MANUAL
+      ExecutionRoleArn: !GetAtt BudgetActionRole.Arn
+      Definition:
+        IamActionDefinition:
+          PolicyArn: !Ref DenyLambdaInvokePolicy
+          Roles:
+            - !Ref ScoreFunctionRole
+      Subscribers:
+        - SubscriptionType: EMAIL
+          Address: !Ref AlertEmail
+
+Outputs:
+  ApiEndpoint:
+    Description: >
+      Would be the scoring endpoint. This stack was never deployed, so no such
+      URL exists. Do not quote this output as if it did.
+    Value: !Sub "https://${Api}.execute-api.${AWS::Region}.amazonaws.com/prod/score"
+  FrameBucketName:
+    Value: !Ref FrameBucket
+  ArtefactBucketName:
+    Value: !Ref ArtefactBucket

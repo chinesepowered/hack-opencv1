@@ -1,0 +1,4350 @@
+{
+ "sequence": "20190924_FIRE_sm-n-mobo-c",
+ "frames": [
+  {
+   "i": 0,
+   "offset_s": -2343,
+   "label": 0,
+   "image": "f000.jpg",
+   "scored": false,
+   "prob": null,
+   "cv_score": 0.0,
+   "has_reference": false,
+   "boxes": [],
+   "agent": null
+  },
+  {
+   "i": 1,
+   "offset_s": -2223,
+   "label": 0,
+   "image": "f001.jpg",
+   "scored": false,
+   "prob": null,
+   "cv_score": 0.0,
+   "has_reference": false,
+   "boxes": [],
+   "agent": null
+  },
+  {
+   "i": 2,
+   "offset_s": -2160,
+   "label": 0,
+   "image": "f002.jpg",
+   "scored": false,
+   "prob": null,
+   "cv_score": 0.0,
+   "has_reference": false,
+   "boxes": [],
+   "agent": null
+  },
+  {
+   "i": 3,
+   "offset_s": -2103,
+   "label": 0,
+   "image": "f003.jpg",
+   "scored": false,
+   "prob": null,
+   "cv_score": 0.0,
+   "has_reference": false,
+   "boxes": [],
+   "agent": null
+  },
+  {
+   "i": 4,
+   "offset_s": -2043,
+   "label": 0,
+   "image": "f004.jpg",
+   "scored": false,
+   "prob": null,
+   "cv_score": 0.0,
+   "has_reference": false,
+   "boxes": [],
+   "agent": null
+  },
+  {
+   "i": 5,
+   "offset_s": -1983,
+   "label": 0,
+   "image": "f005.jpg",
+   "scored": false,
+   "prob": null,
+   "cv_score": 0.0,
+   "has_reference": false,
+   "boxes": [],
+   "agent": null
+  },
+  {
+   "i": 6,
+   "offset_s": -1863,
+   "label": 0,
+   "image": "f006.jpg",
+   "scored": false,
+   "prob": null,
+   "cv_score": 0.0,
+   "has_reference": false,
+   "boxes": [],
+   "agent": null
+  },
+  {
+   "i": 7,
+   "offset_s": -1798,
+   "label": 0,
+   "image": "f007.jpg",
+   "scored": true,
+   "prob": 0.2009,
+   "cv_score": 0.2275,
+   "has_reference": true,
+   "boxes": [
+    [
+     595,
+     126,
+     161,
+     37
+    ],
+    [
+     933,
+     677,
+     27,
+     43
+    ],
+    [
+     647,
+     282,
+     41,
+     55
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 8,
+   "offset_s": -1743,
+   "label": 0,
+   "image": "f008.jpg",
+   "scored": true,
+   "prob": 0.2009,
+   "cv_score": 0.2291,
+   "has_reference": true,
+   "boxes": [
+    [
+     595,
+     126,
+     161,
+     34
+    ],
+    [
+     272,
+     203,
+     90,
+     22
+    ],
+    [
+     935,
+     678,
+     25,
+     42
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 9,
+   "offset_s": -1683,
+   "label": 0,
+   "image": "f009.jpg",
+   "scored": true,
+   "prob": 0.2009,
+   "cv_score": 0.239,
+   "has_reference": true,
+   "boxes": [
+    [
+     581,
+     126,
+     174,
+     33
+    ],
+    [
+     267,
+     204,
+     89,
+     33
+    ],
+    [
+     935,
+     678,
+     25,
+     42
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 10,
+   "offset_s": -1623,
+   "label": 0,
+   "image": "f010.jpg",
+   "scored": true,
+   "prob": 0.2009,
+   "cv_score": 0.2295,
+   "has_reference": true,
+   "boxes": [
+    [
+     582,
+     126,
+     173,
+     33
+    ],
+    [
+     460,
+     228,
+     54,
+     29
+    ],
+    [
+     936,
+     678,
+     24,
+     42
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 11,
+   "offset_s": -1563,
+   "label": 0,
+   "image": "f011.jpg",
+   "scored": true,
+   "prob": 0.2009,
+   "cv_score": 0.2281,
+   "has_reference": true,
+   "boxes": [
+    [
+     937,
+     679,
+     23,
+     41
+    ],
+    [
+     598,
+     126,
+     136,
+     32
+    ],
+    [
+     451,
+     225,
+     61,
+     30
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 12,
+   "offset_s": -1503,
+   "label": 0,
+   "image": "f012.jpg",
+   "scored": true,
+   "prob": 0.2009,
+   "cv_score": 0.2286,
+   "has_reference": true,
+   "boxes": [
+    [
+     604,
+     126,
+     131,
+     31
+    ],
+    [
+     435,
+     225,
+     112,
+     31
+    ],
+    [
+     340,
+     359,
+     620,
+     361
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 13,
+   "offset_s": -1439,
+   "label": 0,
+   "image": "f013.jpg",
+   "scored": true,
+   "prob": 0.2009,
+   "cv_score": 0.2288,
+   "has_reference": true,
+   "boxes": [
+    [
+     938,
+     667,
+     22,
+     53
+    ],
+    [
+     611,
+     126,
+     121,
+     27
+    ],
+    [
+     440,
+     224,
+     68,
+     32
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 14,
+   "offset_s": -1383,
+   "label": 0,
+   "image": "f014.jpg",
+   "scored": true,
+   "prob": 0.2009,
+   "cv_score": 0.2277,
+   "has_reference": true,
+   "boxes": [
+    [
+     667,
+     134,
+     43,
+     19
+    ],
+    [
+     444,
+     225,
+     63,
+     32
+    ],
+    [
+     340,
+     361,
+     620,
+     359
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 15,
+   "offset_s": -1322,
+   "label": 0,
+   "image": "f015.jpg",
+   "scored": true,
+   "prob": 0.2009,
+   "cv_score": 0.2275,
+   "has_reference": true,
+   "boxes": [
+    [
+     941,
+     679,
+     19,
+     41
+    ],
+    [
+     446,
+     225,
+     94,
+     30
+    ],
+    [
+     340,
+     343,
+     620,
+     377
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 16,
+   "offset_s": -1263,
+   "label": 0,
+   "image": "f016.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.1307,
+   "has_reference": true,
+   "boxes": [
+    [
+     445,
+     224,
+     64,
+     31
+    ],
+    [
+     340,
+     366,
+     620,
+     354
+    ],
+    [
+     283,
+     200,
+     119,
+     56
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 17,
+   "offset_s": -1203,
+   "label": 0,
+   "image": "f017.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.1232,
+   "has_reference": true,
+   "boxes": [
+    [
+     451,
+     224,
+     69,
+     30
+    ],
+    [
+     340,
+     357,
+     620,
+     363
+    ],
+    [
+     289,
+     199,
+     107,
+     51
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 18,
+   "offset_s": -1143,
+   "label": 0,
+   "image": "f018.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.4643,
+   "has_reference": true,
+   "boxes": [
+    [
+     361,
+     398,
+     198,
+     45
+    ],
+    [
+     450,
+     223,
+     55,
+     32
+    ],
+    [
+     340,
+     361,
+     620,
+     359
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 19,
+   "offset_s": -1081,
+   "label": 0,
+   "image": "f019.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.107,
+   "has_reference": true,
+   "boxes": [
+    [
+     447,
+     224,
+     48,
+     31
+    ],
+    [
+     393,
+     361,
+     567,
+     359
+    ],
+    [
+     301,
+     197,
+     93,
+     38
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 20,
+   "offset_s": -1023,
+   "label": 0,
+   "image": "f020.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.1879,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     682,
+     53,
+     38
+    ],
+    [
+     451,
+     224,
+     44,
+     30
+    ],
+    [
+     393,
+     362,
+     567,
+     358
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 21,
+   "offset_s": -963,
+   "label": 0,
+   "image": "f021.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.06,
+   "has_reference": true,
+   "boxes": [
+    [
+     448,
+     225,
+     84,
+     29
+    ],
+    [
+     395,
+     366,
+     565,
+     354
+    ],
+    [
+     303,
+     196,
+     75,
+     39
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 22,
+   "offset_s": -903,
+   "label": 0,
+   "image": "f022.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.1166,
+   "has_reference": true,
+   "boxes": [
+    [
+     451,
+     224,
+     81,
+     38
+    ],
+    [
+     399,
+     366,
+     561,
+     354
+    ],
+    [
+     298,
+     193,
+     78,
+     42
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 23,
+   "offset_s": -843,
+   "label": 0,
+   "image": "f023.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.1903,
+   "has_reference": true,
+   "boxes": [
+    [
+     454,
+     223,
+     63,
+     35
+    ],
+    [
+     395,
+     361,
+     565,
+     359
+    ],
+    [
+     290,
+     189,
+     85,
+     46
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 24,
+   "offset_s": -783,
+   "label": 0,
+   "image": "f024.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.2447,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     708,
+     53,
+     12
+    ],
+    [
+     446,
+     219,
+     47,
+     36
+    ],
+    [
+     350,
+     366,
+     610,
+     354
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 25,
+   "offset_s": -721,
+   "label": 0,
+   "image": "f025.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.1875,
+   "has_reference": true,
+   "boxes": [
+    [
+     450,
+     224,
+     40,
+     31
+    ],
+    [
+     294,
+     178,
+     106,
+     48
+    ],
+    [
+     387,
+     366,
+     573,
+     354
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 26,
+   "offset_s": -663,
+   "label": 0,
+   "image": "f026.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.1953,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     707,
+     64,
+     13
+    ],
+    [
+     290,
+     178,
+     111,
+     57
+    ],
+    [
+     387,
+     363,
+     573,
+     357
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": -663,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 14
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.1378
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 27,
+   "offset_s": -603,
+   "label": 0,
+   "image": "f027.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.1876,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     682,
+     64,
+     38
+    ],
+    [
+     450,
+     222,
+     47,
+     33
+    ],
+    [
+     291,
+     176,
+     111,
+     58
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 28,
+   "offset_s": -543,
+   "label": 0,
+   "image": "f028.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.1837,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     682,
+     55,
+     38
+    ],
+    [
+     450,
+     224,
+     41,
+     30
+    ],
+    [
+     291,
+     177,
+     126,
+     58
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 29,
+   "offset_s": -483,
+   "label": 0,
+   "image": "f029.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.173,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     671,
+     64,
+     49
+    ],
+    [
+     455,
+     226,
+     32,
+     28
+    ],
+    [
+     296,
+     172,
+     88,
+     63
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 30,
+   "offset_s": -423,
+   "label": 0,
+   "image": "f030.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.1854,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     654,
+     82,
+     66
+    ],
+    [
+     436,
+     226,
+     49,
+     29
+    ],
+    [
+     340,
+     687,
+     34,
+     33
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 31,
+   "offset_s": -358,
+   "label": 0,
+   "image": "f031.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.2358,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     640,
+     125,
+     80
+    ],
+    [
+     340,
+     363,
+     620,
+     357
+    ],
+    [
+     286,
+     164,
+     275,
+     122
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 32,
+   "offset_s": -303,
+   "label": 0,
+   "image": "f032.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.1864,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     639,
+     125,
+     81
+    ],
+    [
+     338,
+     364,
+     622,
+     356
+    ],
+    [
+     278,
+     162,
+     284,
+     124
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 33,
+   "offset_s": -239,
+   "label": 0,
+   "image": "f033.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.2144,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     639,
+     104,
+     81
+    ],
+    [
+     623,
+     653,
+     94,
+     67
+    ],
+    [
+     340,
+     356,
+     620,
+     364
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 34,
+   "offset_s": -183,
+   "label": 0,
+   "image": "f034.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.2661,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     638,
+     125,
+     82
+    ],
+    [
+     653,
+     243,
+     90,
+     19
+    ],
+    [
+     151,
+     233,
+     67,
+     16
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": -183,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.1378
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 35,
+   "offset_s": -63,
+   "label": 0,
+   "image": "f035.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.2038,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     620,
+     199,
+     100
+    ],
+    [
+     17,
+     579,
+     59,
+     28
+    ],
+    [
+     653,
+     243,
+     104,
+     20
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": -63,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.1378
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 36,
+   "offset_s": 0,
+   "label": 1,
+   "image": "f036.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.2126,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     634,
+     233,
+     86
+    ],
+    [
+     652,
+     240,
+     107,
+     25
+    ],
+    [
+     0,
+     534,
+     84,
+     75
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 0,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.4523
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 37,
+   "offset_s": 57,
+   "label": 1,
+   "image": "f037.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.2151,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     620,
+     200,
+     100
+    ],
+    [
+     0,
+     532,
+     83,
+     89
+    ],
+    [
+     641,
+     240,
+     122,
+     25
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 57,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.2885
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 38,
+   "offset_s": 118,
+   "label": 1,
+   "image": "f038.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.2248,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     621,
+     200,
+     99
+    ],
+    [
+     0,
+     529,
+     121,
+     103
+    ],
+    [
+     575,
+     232,
+     206,
+     36
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 118,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 39,
+   "offset_s": 177,
+   "label": 1,
+   "image": "f039.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.1846,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     528,
+     293,
+     192
+    ],
+    [
+     106,
+     549,
+     51,
+     69
+    ],
+    [
+     313,
+     342,
+     647,
+     378
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 177,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 40,
+   "offset_s": 238,
+   "label": 1,
+   "image": "f040.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.1732,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     457,
+     306,
+     263
+    ],
+    [
+     188,
+     623,
+     38,
+     35
+    ],
+    [
+     309,
+     342,
+     651,
+     378
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 238,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 41,
+   "offset_s": 297,
+   "label": 1,
+   "image": "f041.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.1666,
+   "has_reference": true,
+   "boxes": [
+    [
+     483,
+     428,
+     99,
+     61
+    ],
+    [
+     134,
+     190,
+     669,
+     86
+    ],
+    [
+     0,
+     342,
+     960,
+     378
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 297,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 42,
+   "offset_s": 417,
+   "label": 1,
+   "image": "f042.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.044,
+   "has_reference": true,
+   "boxes": [
+    [
+     100,
+     196,
+     715,
+     89
+    ],
+    [
+     0,
+     342,
+     960,
+     378
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 417,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 43,
+   "offset_s": 477,
+   "label": 1,
+   "image": "f043.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.2287,
+   "has_reference": true,
+   "boxes": [
+    [
+     518,
+     140,
+     54,
+     19
+    ],
+    [
+     100,
+     195,
+     735,
+     92
+    ],
+    [
+     0,
+     327,
+     960,
+     393
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 477,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 44,
+   "offset_s": 537,
+   "label": 1,
+   "image": "f044.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.2416,
+   "has_reference": true,
+   "boxes": [
+    [
+     520,
+     137,
+     44,
+     17
+    ],
+    [
+     100,
+     193,
+     763,
+     87
+    ],
+    [
+     0,
+     327,
+     960,
+     393
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 537,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 45,
+   "offset_s": 598,
+   "label": 1,
+   "image": "f045.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.2409,
+   "has_reference": true,
+   "boxes": [
+    [
+     429,
+     140,
+     46,
+     24
+    ],
+    [
+     96,
+     191,
+     767,
+     89
+    ],
+    [
+     0,
+     321,
+     960,
+     399
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 598,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 46,
+   "offset_s": 657,
+   "label": 1,
+   "image": "f046.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.2103,
+   "has_reference": true,
+   "boxes": [
+    [
+     429,
+     133,
+     50,
+     27
+    ],
+    [
+     100,
+     189,
+     763,
+     96
+    ],
+    [
+     0,
+     321,
+     960,
+     399
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 657,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 47,
+   "offset_s": 722,
+   "label": 1,
+   "image": "f047.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.0539,
+   "has_reference": true,
+   "boxes": [
+    [
+     97,
+     188,
+     772,
+     96
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 722,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 48,
+   "offset_s": 777,
+   "label": 1,
+   "image": "f048.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.0546,
+   "has_reference": true,
+   "boxes": [
+    [
+     100,
+     186,
+     797,
+     100
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 777,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 49,
+   "offset_s": 840,
+   "label": 1,
+   "image": "f049.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.0579,
+   "has_reference": true,
+   "boxes": [
+    [
+     99,
+     185,
+     773,
+     96
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 840,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 50,
+   "offset_s": 897,
+   "label": 1,
+   "image": "f050.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.0596,
+   "has_reference": true,
+   "boxes": [
+    [
+     97,
+     183,
+     797,
+     104
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 897,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 51,
+   "offset_s": 957,
+   "label": 1,
+   "image": "f051.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.0709,
+   "has_reference": true,
+   "boxes": [
+    [
+     84,
+     181,
+     785,
+     107
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 957,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 52,
+   "offset_s": 1017,
+   "label": 1,
+   "image": "f052.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.085,
+   "has_reference": true,
+   "boxes": [
+    [
+     86,
+     180,
+     782,
+     105
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 1017,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 53,
+   "offset_s": 1080,
+   "label": 1,
+   "image": "f053.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.0847,
+   "has_reference": true,
+   "boxes": [
+    [
+     80,
+     178,
+     792,
+     105
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 1080,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 54,
+   "offset_s": 1137,
+   "label": 1,
+   "image": "f054.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.0821,
+   "has_reference": true,
+   "boxes": [
+    [
+     88,
+     177,
+     809,
+     105
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 1137,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 55,
+   "offset_s": 1197,
+   "label": 1,
+   "image": "f055.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.0754,
+   "has_reference": true,
+   "boxes": [
+    [
+     82,
+     176,
+     817,
+     107
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 1197,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 56,
+   "offset_s": 1257,
+   "label": 1,
+   "image": "f056.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.0774,
+   "has_reference": true,
+   "boxes": [
+    [
+     80,
+     174,
+     785,
+     113
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 1257,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 57,
+   "offset_s": 1318,
+   "label": 1,
+   "image": "f057.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.0771,
+   "has_reference": true,
+   "boxes": [
+    [
+     73,
+     174,
+     793,
+     114
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 1318,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 58,
+   "offset_s": 1377,
+   "label": 1,
+   "image": "f058.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.1285,
+   "has_reference": true,
+   "boxes": [
+    [
+     874,
+     260,
+     47,
+     19
+    ],
+    [
+     70,
+     172,
+     796,
+     116
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 1377,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 59,
+   "offset_s": 1438,
+   "label": 1,
+   "image": "f059.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.0767,
+   "has_reference": true,
+   "boxes": [
+    [
+     66,
+     170,
+     800,
+     118
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 1438,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 60,
+   "offset_s": 1497,
+   "label": 1,
+   "image": "f060.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.0785,
+   "has_reference": true,
+   "boxes": [
+    [
+     61,
+     170,
+     802,
+     117
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 1497,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 61,
+   "offset_s": 1558,
+   "label": 1,
+   "image": "f061.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.0798,
+   "has_reference": true,
+   "boxes": [
+    [
+     71,
+     172,
+     795,
+     117
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 1558,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 62,
+   "offset_s": 1617,
+   "label": 1,
+   "image": "f062.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.0801,
+   "has_reference": true,
+   "boxes": [
+    [
+     80,
+     172,
+     783,
+     116
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 1617,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 63,
+   "offset_s": 1677,
+   "label": 1,
+   "image": "f063.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.0826,
+   "has_reference": true,
+   "boxes": [
+    [
+     80,
+     174,
+     784,
+     113
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 1677,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 64,
+   "offset_s": 1737,
+   "label": 1,
+   "image": "f064.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.1285,
+   "has_reference": true,
+   "boxes": [
+    [
+     807,
+     323,
+     51,
+     33
+    ],
+    [
+     78,
+     176,
+     785,
+     111
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 1737,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 65,
+   "offset_s": 1799,
+   "label": 1,
+   "image": "f065.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.0859,
+   "has_reference": true,
+   "boxes": [
+    [
+     96,
+     177,
+     767,
+     112
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 1799,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 66,
+   "offset_s": 1857,
+   "label": 1,
+   "image": "f066.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.0875,
+   "has_reference": true,
+   "boxes": [
+    [
+     91,
+     179,
+     772,
+     111
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 1857,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 67,
+   "offset_s": 1921,
+   "label": 1,
+   "image": "f067.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.3,
+   "has_reference": true,
+   "boxes": [
+    [
+     756,
+     126,
+     64,
+     24
+    ],
+    [
+     923,
+     126,
+     37,
+     26
+    ],
+    [
+     97,
+     181,
+     766,
+     107
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 1921,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 68,
+   "offset_s": 1977,
+   "label": 1,
+   "image": "f068.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.2421,
+   "has_reference": true,
+   "boxes": [
+    [
+     749,
+     126,
+     93,
+     21
+    ],
+    [
+     79,
+     177,
+     784,
+     112
+    ],
+    [
+     875,
+     126,
+     85,
+     31
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 1977,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 69,
+   "offset_s": 2037,
+   "label": 1,
+   "image": "f069.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.1606,
+   "has_reference": true,
+   "boxes": [
+    [
+     742,
+     126,
+     218,
+     35
+    ],
+    [
+     96,
+     177,
+     767,
+     105
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 2037,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 70,
+   "offset_s": 2097,
+   "label": 1,
+   "image": "f070.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.1063,
+   "has_reference": true,
+   "boxes": [
+    [
+     109,
+     179,
+     754,
+     102
+    ],
+    [
+     776,
+     126,
+     184,
+     35
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 2097,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 71,
+   "offset_s": 2157,
+   "label": 1,
+   "image": "f071.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.1499,
+   "has_reference": true,
+   "boxes": [
+    [
+     80,
+     176,
+     783,
+     113
+    ],
+    [
+     865,
+     126,
+     95,
+     29
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 2157,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 72,
+   "offset_s": 2217,
+   "label": 1,
+   "image": "f072.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.1664,
+   "has_reference": true,
+   "boxes": [
+    [
+     78,
+     175,
+     785,
+     116
+    ],
+    [
+     883,
+     126,
+     77,
+     23
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 2217,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 73,
+   "offset_s": 2277,
+   "label": 1,
+   "image": "f073.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.2585,
+   "has_reference": true,
+   "boxes": [
+    [
+     801,
+     139,
+     71,
+     13
+    ],
+    [
+     78,
+     173,
+     785,
+     118
+    ],
+    [
+     894,
+     126,
+     66,
+     27
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 2277,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 74,
+   "offset_s": 2337,
+   "label": 1,
+   "image": "f074.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.2485,
+   "has_reference": true,
+   "boxes": [
+    [
+     802,
+     127,
+     94,
+     20
+    ],
+    [
+     277,
+     463,
+     75,
+     25
+    ],
+    [
+     76,
+     176,
+     787,
+     112
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 2337,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 75,
+   "offset_s": 2397,
+   "label": 1,
+   "image": "f075.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.1529,
+   "has_reference": true,
+   "boxes": [
+    [
+     786,
+     306,
+     56,
+     46
+    ],
+    [
+     135,
+     182,
+     728,
+     102
+    ],
+    [
+     809,
+     126,
+     151,
+     53
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "corroborated by a neighbouring camera",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": true,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20190924_FIRE_sm-n-mobo-c",
+       "offset_s": 2397,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 1
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "check_neighbour",
+      "detail": {
+       "sequence": "20190924_FIRE_lo-w-mobo-c",
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  }
+ ],
+ "threshold": 0.7668,
+ "image_width": 640,
+ "stats": {
+  "frames": 76,
+  "scored": 69,
+  "positives": 40,
+  "detector_alerts": 43,
+  "detector_false_alarms": 3,
+  "agent_escalations": 43,
+  "agent_suppressions": 0,
+  "agent_suppressed_true_smoke": 0,
+  "neighbours": [
+   "20190924_FIRE_lo-w-mobo-c"
+  ]
+ }
+}

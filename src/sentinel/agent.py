@@ -199,8 +199,9 @@ def build_strands_agent(tools: list[Any]):
             "api_key": os.environ["OPENAI_API_KEY"],
             "base_url": os.environ["OPENAI_BASE_URL"],
         },
-        model_id=os.environ.get("OPENAI_MODEL", "Qwen/Qwen3.8-27B"),
-        params={"temperature": 0, "chat_template_kwargs": {"enable_thinking": False}},
+        model_id=os.environ.get("OPENAI_MODEL", "zai-org/GLM-5.3-Flash"),
+        params={"temperature": 0, "max_tokens": 1200,
+                "chat_template_kwargs": {"enable_thinking": False}},
     )
     system = (
         "You verify wildfire smoke candidates from fixed cameras. "

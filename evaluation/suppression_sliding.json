@@ -1,11 +1,12 @@
 {
+ "baseline": "sliding",
  "threshold": 0.7668,
  "before": {
   "name": "detector_only",
   "alerts_total": 1230,
   "true_positive_alerts": 1158,
   "false_alarm_alerts": 72,
-  "false_alarms_per_camera_day": 60.28,
+  "false_alarms_per_camera_day": 86.4,
   "sequences_detected": 43,
   "sequences_total": 43,
   "recall_frames": 0.7348,
@@ -13,11 +14,11 @@
   "p90_latency_s": 1668.0
  },
  "after": {
-  "name": "detector_plus_agent",
+  "name": "detector_plus_agent_sliding",
   "alerts_total": 898,
   "true_positive_alerts": 832,
   "false_alarm_alerts": 66,
-  "false_alarms_per_camera_day": 55.26,
+  "false_alarms_per_camera_day": 79.2,
   "sequences_detected": 41,
   "sequences_total": 43,
   "recall_frames": 0.5279,
@@ -25,5 +26,15 @@
   "p90_latency_s": 1680.0
  },
  "false_alarm_reduction_pct": 8.33,
- "guardrail_blocks": 400
+ "recall_cost_pct": 28.16,
+ "history_pool_post_ignition_pct": 46.0,
+ "guardrail_blocks": 400,
+ "guardrail_block_rate_pct": 32.5,
+ "alerts_considered": 1230,
+ "suppressions_by_rule": {
+  "within_camera_baseline": {
+   "true_smoke": 326,
+   "clear": 6
+  }
+ }
 }

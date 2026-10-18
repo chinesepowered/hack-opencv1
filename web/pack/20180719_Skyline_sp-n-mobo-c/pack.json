@@ -1,0 +1,4746 @@
+{
+ "sequence": "20180719_Skyline_sp-n-mobo-c",
+ "frames": [
+  {
+   "i": 0,
+   "offset_s": -2400,
+   "label": 0,
+   "image": "f000.jpg",
+   "scored": false,
+   "prob": null,
+   "cv_score": 0.0,
+   "has_reference": false,
+   "boxes": [],
+   "agent": null
+  },
+  {
+   "i": 1,
+   "offset_s": -2340,
+   "label": 0,
+   "image": "f001.jpg",
+   "scored": false,
+   "prob": null,
+   "cv_score": 0.0,
+   "has_reference": false,
+   "boxes": [],
+   "agent": null
+  },
+  {
+   "i": 2,
+   "offset_s": -2280,
+   "label": 0,
+   "image": "f002.jpg",
+   "scored": false,
+   "prob": null,
+   "cv_score": 0.0,
+   "has_reference": false,
+   "boxes": [],
+   "agent": null
+  },
+  {
+   "i": 3,
+   "offset_s": -2220,
+   "label": 0,
+   "image": "f003.jpg",
+   "scored": false,
+   "prob": null,
+   "cv_score": 0.0,
+   "has_reference": false,
+   "boxes": [],
+   "agent": null
+  },
+  {
+   "i": 4,
+   "offset_s": -2160,
+   "label": 0,
+   "image": "f004.jpg",
+   "scored": false,
+   "prob": null,
+   "cv_score": 0.0,
+   "has_reference": false,
+   "boxes": [],
+   "agent": null
+  },
+  {
+   "i": 5,
+   "offset_s": -2100,
+   "label": 0,
+   "image": "f005.jpg",
+   "scored": false,
+   "prob": null,
+   "cv_score": 0.0,
+   "has_reference": false,
+   "boxes": [],
+   "agent": null
+  },
+  {
+   "i": 6,
+   "offset_s": -2040,
+   "label": 0,
+   "image": "f006.jpg",
+   "scored": false,
+   "prob": null,
+   "cv_score": 0.0,
+   "has_reference": false,
+   "boxes": [],
+   "agent": null
+  },
+  {
+   "i": 7,
+   "offset_s": -1980,
+   "label": 0,
+   "image": "f007.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.1808,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     146,
+     137,
+     75
+    ],
+    [
+     792,
+     77,
+     168,
+     159
+    ],
+    [
+     281,
+     93,
+     294,
+     108
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 8,
+   "offset_s": -1920,
+   "label": 0,
+   "image": "f008.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.1362,
+   "has_reference": true,
+   "boxes": [
+    [
+     481,
+     122,
+     75,
+     26
+    ],
+    [
+     50,
+     195,
+     58,
+     34
+    ],
+    [
+     47,
+     52,
+     411,
+     154
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 9,
+   "offset_s": -1860,
+   "label": 0,
+   "image": "f009.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.2034,
+   "has_reference": true,
+   "boxes": [
+    [
+     53,
+     192,
+     100,
+     18
+    ],
+    [
+     49,
+     52,
+     407,
+     157
+    ],
+    [
+     802,
+     83,
+     111,
+     128
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 10,
+   "offset_s": -1800,
+   "label": 0,
+   "image": "f010.jpg",
+   "scored": true,
+   "prob": 0.2009,
+   "cv_score": 0.2105,
+   "has_reference": true,
+   "boxes": [
+    [
+     64,
+     191,
+     112,
+     20
+    ],
+    [
+     47,
+     52,
+     400,
+     81
+    ],
+    [
+     802,
+     83,
+     110,
+     126
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 11,
+   "offset_s": -1740,
+   "label": 0,
+   "image": "f011.jpg",
+   "scored": true,
+   "prob": 0.2009,
+   "cv_score": 0.23,
+   "has_reference": true,
+   "boxes": [
+    [
+     46,
+     50,
+     243,
+     84
+    ],
+    [
+     64,
+     190,
+     111,
+     22
+    ],
+    [
+     323,
+     105,
+     57,
+     18
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 12,
+   "offset_s": -1680,
+   "label": 0,
+   "image": "f012.jpg",
+   "scored": true,
+   "prob": 0.2009,
+   "cv_score": 0.2679,
+   "has_reference": true,
+   "boxes": [
+    [
+     495,
+     63,
+     37,
+     36
+    ],
+    [
+     54,
+     0,
+     231,
+     131
+    ],
+    [
+     71,
+     192,
+     100,
+     21
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 13,
+   "offset_s": -1620,
+   "label": 0,
+   "image": "f013.jpg",
+   "scored": true,
+   "prob": 0.2009,
+   "cv_score": 0.2661,
+   "has_reference": true,
+   "boxes": [
+    [
+     340,
+     77,
+     66,
+     51
+    ],
+    [
+     30,
+     0,
+     227,
+     130
+    ],
+    [
+     459,
+     114,
+     106,
+     28
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 14,
+   "offset_s": -1560,
+   "label": 0,
+   "image": "f014.jpg",
+   "scored": true,
+   "prob": 0.2009,
+   "cv_score": 0.199,
+   "has_reference": true,
+   "boxes": [
+    [
+     83,
+     194,
+     69,
+     18
+    ],
+    [
+     56,
+     49,
+     272,
+     112
+    ],
+    [
+     465,
+     118,
+     104,
+     21
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 15,
+   "offset_s": -1500,
+   "label": 0,
+   "image": "f015.jpg",
+   "scored": true,
+   "prob": 0.2009,
+   "cv_score": 0.2271,
+   "has_reference": true,
+   "boxes": [
+    [
+     56,
+     52,
+     203,
+     70
+    ],
+    [
+     489,
+     115,
+     77,
+     23
+    ],
+    [
+     78,
+     191,
+     76,
+     22
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 16,
+   "offset_s": -1440,
+   "label": 0,
+   "image": "f016.jpg",
+   "scored": true,
+   "prob": 0.2009,
+   "cv_score": 0.2323,
+   "has_reference": true,
+   "boxes": [
+    [
+     54,
+     53,
+     194,
+     65
+    ],
+    [
+     502,
+     118,
+     65,
+     17
+    ],
+    [
+     99,
+     195,
+     52,
+     14
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 17,
+   "offset_s": -1380,
+   "label": 0,
+   "image": "f017.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.3,
+   "has_reference": true,
+   "boxes": [
+    [
+     683,
+     49,
+     67,
+     41
+    ],
+    [
+     66,
+     54,
+     187,
+     64
+    ],
+    [
+     779,
+     26,
+     33,
+     47
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 18,
+   "offset_s": -1320,
+   "label": 0,
+   "image": "f018.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.2515,
+   "has_reference": true,
+   "boxes": [
+    [
+     67,
+     51,
+     184,
+     67
+    ],
+    [
+     455,
+     43,
+     184,
+     119
+    ],
+    [
+     778,
+     26,
+     34,
+     47
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 19,
+   "offset_s": -1260,
+   "label": 0,
+   "image": "f019.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.1654,
+   "has_reference": true,
+   "boxes": [
+    [
+     466,
+     99,
+     180,
+     64
+    ],
+    [
+     781,
+     27,
+     31,
+     45
+    ],
+    [
+     413,
+     81,
+     48,
+     38
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 20,
+   "offset_s": -1200,
+   "label": 0,
+   "image": "f020.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.3362,
+   "has_reference": true,
+   "boxes": [
+    [
+     883,
+     604,
+     48,
+     36
+    ],
+    [
+     502,
+     112,
+     144,
+     56
+    ],
+    [
+     34,
+     50,
+     205,
+     49
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 21,
+   "offset_s": -1140,
+   "label": 0,
+   "image": "f021.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.2613,
+   "has_reference": true,
+   "boxes": [
+    [
+     90,
+     59,
+     138,
+     50
+    ],
+    [
+     895,
+     600,
+     39,
+     40
+    ],
+    [
+     518,
+     124,
+     112,
+     44
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 22,
+   "offset_s": -1080,
+   "label": 0,
+   "image": "f022.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.2305,
+   "has_reference": true,
+   "boxes": [
+    [
+     87,
+     65,
+     142,
+     49
+    ],
+    [
+     779,
+     28,
+     33,
+     42
+    ],
+    [
+     490,
+     114,
+     123,
+     54
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 23,
+   "offset_s": -1020,
+   "label": 0,
+   "image": "f023.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.22,
+   "has_reference": true,
+   "boxes": [
+    [
+     511,
+     147,
+     59,
+     20
+    ],
+    [
+     784,
+     34,
+     28,
+     36
+    ],
+    [
+     777,
+     593,
+     23,
+     47
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 24,
+   "offset_s": -960,
+   "label": 0,
+   "image": "f024.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.2243,
+   "has_reference": true,
+   "boxes": [
+    [
+     155,
+     61,
+     95,
+     26
+    ],
+    [
+     898,
+     488,
+     62,
+     80
+    ],
+    [
+     776,
+     594,
+     24,
+     46
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 25,
+   "offset_s": -900,
+   "label": 0,
+   "image": "f025.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.1866,
+   "has_reference": true,
+   "boxes": [
+    [
+     902,
+     483,
+     58,
+     81
+    ],
+    [
+     776,
+     595,
+     24,
+     45
+    ],
+    [
+     780,
+     32,
+     31,
+     35
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 26,
+   "offset_s": -840,
+   "label": 0,
+   "image": "f026.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.1976,
+   "has_reference": true,
+   "boxes": [
+    [
+     908,
+     479,
+     52,
+     73
+    ],
+    [
+     776,
+     595,
+     24,
+     45
+    ],
+    [
+     604,
+     139,
+     74,
+     25
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 27,
+   "offset_s": -780,
+   "label": 0,
+   "image": "f027.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.2296,
+   "has_reference": true,
+   "boxes": [
+    [
+     602,
+     139,
+     65,
+     25
+    ],
+    [
+     914,
+     475,
+     46,
+     72
+    ],
+    [
+     776,
+     596,
+     23,
+     44
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 28,
+   "offset_s": -720,
+   "label": 0,
+   "image": "f028.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.2287,
+   "has_reference": true,
+   "boxes": [
+    [
+     586,
+     136,
+     59,
+     27
+    ],
+    [
+     166,
+     64,
+     44,
+     16
+    ],
+    [
+     918,
+     471,
+     42,
+     70
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 29,
+   "offset_s": -660,
+   "label": 0,
+   "image": "f029.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.2691,
+   "has_reference": true,
+   "boxes": [
+    [
+     282,
+     43,
+     104,
+     23
+    ],
+    [
+     776,
+     600,
+     23,
+     40
+    ],
+    [
+     921,
+     469,
+     39,
+     66
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 30,
+   "offset_s": -600,
+   "label": 0,
+   "image": "f030.jpg",
+   "scored": true,
+   "prob": 0.1378,
+   "cv_score": 0.2831,
+   "has_reference": true,
+   "boxes": [
+    [
+     231,
+     50,
+     131,
+     27
+    ],
+    [
+     417,
+     18,
+     107,
+     29
+    ],
+    [
+     934,
+     485,
+     26,
+     35
+    ]
+   ],
+   "agent": null
+  },
+  {
+   "i": 31,
+   "offset_s": -540,
+   "label": 0,
+   "image": "f031.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.1774,
+   "has_reference": true,
+   "boxes": [
+    [
+     776,
+     598,
+     23,
+     42
+    ],
+    [
+     94,
+     18,
+     406,
+     88
+    ],
+    [
+     585,
+     92,
+     92,
+     64
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": -540,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 19
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 32,
+   "offset_s": -480,
+   "label": 0,
+   "image": "f032.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.1744,
+   "has_reference": true,
+   "boxes": [
+    [
+     165,
+     19,
+     317,
+     80
+    ],
+    [
+     769,
+     585,
+     35,
+     55
+    ],
+    [
+     829,
+     575,
+     111,
+     65
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": -480,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 20
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 33,
+   "offset_s": -420,
+   "label": 0,
+   "image": "f033.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1793,
+   "has_reference": true,
+   "boxes": [
+    [
+     496,
+     93,
+     177,
+     53
+    ],
+    [
+     97,
+     27,
+     338,
+     89
+    ],
+    [
+     838,
+     569,
+     106,
+     71
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": -420,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 34,
+   "offset_s": -360,
+   "label": 0,
+   "image": "f034.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.2109,
+   "has_reference": true,
+   "boxes": [
+    [
+     501,
+     82,
+     179,
+     65
+    ],
+    [
+     107,
+     35,
+     284,
+     89
+    ],
+    [
+     839,
+     564,
+     107,
+     76
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": -360,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 35,
+   "offset_s": -300,
+   "label": 0,
+   "image": "f035.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1794,
+   "has_reference": true,
+   "boxes": [
+    [
+     473,
+     89,
+     203,
+     58
+    ],
+    [
+     115,
+     46,
+     240,
+     81
+    ],
+    [
+     839,
+     559,
+     110,
+     81
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": -300,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 36,
+   "offset_s": -240,
+   "label": 0,
+   "image": "f036.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.1648,
+   "has_reference": true,
+   "boxes": [
+    [
+     119,
+     55,
+     200,
+     81
+    ],
+    [
+     479,
+     109,
+     42,
+     26
+    ],
+    [
+     841,
+     553,
+     114,
+     87
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": -240,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 37,
+   "offset_s": -180,
+   "label": 0,
+   "image": "f037.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.1882,
+   "has_reference": true,
+   "boxes": [
+    [
+     145,
+     58,
+     152,
+     69
+    ],
+    [
+     776,
+     581,
+     23,
+     59
+    ],
+    [
+     840,
+     548,
+     120,
+     92
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": -180,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 38,
+   "offset_s": -120,
+   "label": 0,
+   "image": "f038.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.198,
+   "has_reference": true,
+   "boxes": [
+    [
+     128,
+     64,
+     141,
+     68
+    ],
+    [
+     828,
+     542,
+     132,
+     98
+    ],
+    [
+     232,
+     0,
+     86,
+     23
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": -120,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 39,
+   "offset_s": -60,
+   "label": 0,
+   "image": "f039.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.2089,
+   "has_reference": true,
+   "boxes": [
+    [
+     121,
+     76,
+     119,
+     64
+    ],
+    [
+     482,
+     112,
+     119,
+     38
+    ],
+    [
+     776,
+     590,
+     23,
+     50
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": -60,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 40,
+   "offset_s": 0,
+   "label": 1,
+   "image": "f040.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.1843,
+   "has_reference": true,
+   "boxes": [
+    [
+     127,
+     89,
+     80,
+     59
+    ],
+    [
+     776,
+     599,
+     23,
+     41
+    ],
+    [
+     496,
+     113,
+     91,
+     35
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 0,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 41,
+   "offset_s": 60,
+   "label": 1,
+   "image": "f041.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.1825,
+   "has_reference": true,
+   "boxes": [
+    [
+     776,
+     599,
+     23,
+     41
+    ],
+    [
+     499,
+     113,
+     88,
+     34
+    ],
+    [
+     830,
+     526,
+     130,
+     114
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 60,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 42,
+   "offset_s": 120,
+   "label": 1,
+   "image": "f042.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.2307,
+   "has_reference": true,
+   "boxes": [
+    [
+     95,
+     0,
+     177,
+     34
+    ],
+    [
+     776,
+     590,
+     23,
+     50
+    ],
+    [
+     495,
+     112,
+     105,
+     36
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 120,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 43,
+   "offset_s": 180,
+   "label": 1,
+   "image": "f043.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.1571,
+   "has_reference": true,
+   "boxes": [
+    [
+     815,
+     516,
+     145,
+     124
+    ],
+    [
+     480,
+     112,
+     120,
+     38
+    ],
+    [
+     728,
+     184,
+     41,
+     23
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 180,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 44,
+   "offset_s": 240,
+   "label": 1,
+   "image": "f044.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.1644,
+   "has_reference": true,
+   "boxes": [
+    [
+     479,
+     113,
+     127,
+     37
+    ],
+    [
+     745,
+     399,
+     215,
+     241
+    ],
+    [
+     722,
+     186,
+     47,
+     20
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 240,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 45,
+   "offset_s": 300,
+   "label": 1,
+   "image": "f045.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.1608,
+   "has_reference": true,
+   "boxes": [
+    [
+     496,
+     112,
+     113,
+     38
+    ],
+    [
+     745,
+     395,
+     215,
+     245
+    ],
+    [
+     148,
+     59,
+     80,
+     29
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 300,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 46,
+   "offset_s": 360,
+   "label": 1,
+   "image": "f046.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.1541,
+   "has_reference": true,
+   "boxes": [
+    [
+     446,
+     111,
+     163,
+     49
+    ],
+    [
+     750,
+     392,
+     210,
+     248
+    ],
+    [
+     624,
+     425,
+     63,
+     39
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 360,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 47,
+   "offset_s": 420,
+   "label": 1,
+   "image": "f047.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.1587,
+   "has_reference": true,
+   "boxes": [
+    [
+     433,
+     110,
+     177,
+     53
+    ],
+    [
+     745,
+     390,
+     215,
+     250
+    ],
+    [
+     624,
+     413,
+     48,
+     31
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 420,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 48,
+   "offset_s": 480,
+   "label": 1,
+   "image": "f048.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.1466,
+   "has_reference": true,
+   "boxes": [
+    [
+     431,
+     110,
+     171,
+     41
+    ],
+    [
+     68,
+     25,
+     182,
+     91
+    ],
+    [
+     751,
+     387,
+     209,
+     253
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 480,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 49,
+   "offset_s": 540,
+   "label": 1,
+   "image": "f049.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.1491,
+   "has_reference": true,
+   "boxes": [
+    [
+     497,
+     113,
+     105,
+     38
+    ],
+    [
+     704,
+     385,
+     256,
+     255
+    ],
+    [
+     54,
+     43,
+     190,
+     98
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 540,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 50,
+   "offset_s": 600,
+   "label": 1,
+   "image": "f050.jpg",
+   "scored": true,
+   "prob": 0.7668,
+   "cv_score": 0.1976,
+   "has_reference": true,
+   "boxes": [
+    [
+     879,
+     382,
+     81,
+     67
+    ],
+    [
+     450,
+     100,
+     160,
+     61
+    ],
+    [
+     699,
+     405,
+     261,
+     235
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.7668,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 600,
+       "confidence": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.7668
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 51,
+   "offset_s": 660,
+   "label": 1,
+   "image": "f051.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.2267,
+   "has_reference": true,
+   "boxes": [
+    [
+     187,
+     237,
+     80,
+     10
+    ],
+    [
+     880,
+     380,
+     80,
+     66
+    ],
+    [
+     432,
+     93,
+     170,
+     69
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 660,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 52,
+   "offset_s": 720,
+   "label": 1,
+   "image": "f052.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.2231,
+   "has_reference": true,
+   "boxes": [
+    [
+     170,
+     238,
+     89,
+     9
+    ],
+    [
+     883,
+     374,
+     77,
+     70
+    ],
+    [
+     433,
+     111,
+     168,
+     39
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 720,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 53,
+   "offset_s": 780,
+   "label": 1,
+   "image": "f053.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1908,
+   "has_reference": true,
+   "boxes": [
+    [
+     886,
+     369,
+     74,
+     72
+    ],
+    [
+     498,
+     112,
+     104,
+     39
+    ],
+    [
+     497,
+     402,
+     463,
+     238
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 780,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 54,
+   "offset_s": 840,
+   "label": 1,
+   "image": "f054.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1612,
+   "has_reference": true,
+   "boxes": [
+    [
+     450,
+     90,
+     160,
+     62
+    ],
+    [
+     496,
+     401,
+     464,
+     239
+    ],
+    [
+     788,
+     171,
+     20,
+     54
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 840,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 55,
+   "offset_s": 900,
+   "label": 1,
+   "image": "f055.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1476,
+   "has_reference": true,
+   "boxes": [
+    [
+     433,
+     109,
+     177,
+     53
+    ],
+    [
+     54,
+     18,
+     184,
+     96
+    ],
+    [
+     787,
+     171,
+     21,
+     54
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 900,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 56,
+   "offset_s": 960,
+   "label": 1,
+   "image": "f056.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1323,
+   "has_reference": true,
+   "boxes": [
+    [
+     433,
+     91,
+     174,
+     62
+    ],
+    [
+     497,
+     403,
+     463,
+     237
+    ],
+    [
+     55,
+     48,
+     189,
+     70
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 960,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 57,
+   "offset_s": 1020,
+   "label": 1,
+   "image": "f057.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1289,
+   "has_reference": true,
+   "boxes": [
+    [
+     433,
+     96,
+     178,
+     67
+    ],
+    [
+     624,
+     409,
+     49,
+     37
+    ],
+    [
+     60,
+     47,
+     181,
+     71
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 1020,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 58,
+   "offset_s": 1080,
+   "label": 1,
+   "image": "f058.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1323,
+   "has_reference": true,
+   "boxes": [
+    [
+     432,
+     91,
+     188,
+     76
+    ],
+    [
+     495,
+     402,
+     465,
+     238
+    ],
+    [
+     63,
+     47,
+     186,
+     67
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 1080,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 59,
+   "offset_s": 1140,
+   "label": 1,
+   "image": "f059.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.124,
+   "has_reference": true,
+   "boxes": [
+    [
+     432,
+     100,
+     178,
+     63
+    ],
+    [
+     267,
+     291,
+     71,
+     17
+    ],
+    [
+     787,
+     171,
+     21,
+     53
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 1140,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 60,
+   "offset_s": 1200,
+   "label": 1,
+   "image": "f060.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1551,
+   "has_reference": true,
+   "boxes": [
+    [
+     247,
+     291,
+     82,
+     18
+    ],
+    [
+     921,
+     89,
+     21,
+     63
+    ],
+    [
+     433,
+     101,
+     177,
+     65
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 1200,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 61,
+   "offset_s": 1260,
+   "label": 1,
+   "image": "f061.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.2058,
+   "has_reference": true,
+   "boxes": [
+    [
+     255,
+     291,
+     73,
+     15
+    ],
+    [
+     921,
+     90,
+     21,
+     61
+    ],
+    [
+     664,
+     75,
+     97,
+     26
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 1260,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 62,
+   "offset_s": 1320,
+   "label": 1,
+   "image": "f062.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.2017,
+   "has_reference": true,
+   "boxes": [
+    [
+     255,
+     291,
+     75,
+     15
+    ],
+    [
+     921,
+     90,
+     21,
+     62
+    ],
+    [
+     663,
+     75,
+     75,
+     26
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 1320,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 63,
+   "offset_s": 1380,
+   "label": 1,
+   "image": "f063.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.2104,
+   "has_reference": true,
+   "boxes": [
+    [
+     255,
+     291,
+     86,
+     15
+    ],
+    [
+     921,
+     90,
+     37,
+     61
+    ],
+    [
+     63,
+     46,
+     178,
+     71
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 1380,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 64,
+   "offset_s": 1440,
+   "label": 1,
+   "image": "f064.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.2116,
+   "has_reference": true,
+   "boxes": [
+    [
+     918,
+     82,
+     24,
+     69
+    ],
+    [
+     255,
+     291,
+     85,
+     15
+    ],
+    [
+     61,
+     46,
+     188,
+     72
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 1440,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 65,
+   "offset_s": 1500,
+   "label": 1,
+   "image": "f065.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1907,
+   "has_reference": true,
+   "boxes": [
+    [
+     917,
+     78,
+     41,
+     73
+    ],
+    [
+     255,
+     291,
+     93,
+     15
+    ],
+    [
+     54,
+     28,
+     201,
+     90
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 1500,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 66,
+   "offset_s": 1560,
+   "label": 1,
+   "image": "f066.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1918,
+   "has_reference": true,
+   "boxes": [
+    [
+     255,
+     291,
+     94,
+     15
+    ],
+    [
+     908,
+     55,
+     34,
+     98
+    ],
+    [
+     55,
+     42,
+     194,
+     83
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 1560,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 67,
+   "offset_s": 1620,
+   "label": 1,
+   "image": "f067.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1613,
+   "has_reference": true,
+   "boxes": [
+    [
+     257,
+     291,
+     93,
+     20
+    ],
+    [
+     909,
+     55,
+     51,
+     97
+    ],
+    [
+     664,
+     75,
+     98,
+     29
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 1620,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 68,
+   "offset_s": 1680,
+   "label": 1,
+   "image": "f068.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1702,
+   "has_reference": true,
+   "boxes": [
+    [
+     908,
+     54,
+     34,
+     99
+    ],
+    [
+     257,
+     291,
+     60,
+     21
+    ],
+    [
+     56,
+     24,
+     210,
+     112
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 1680,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 69,
+   "offset_s": 1740,
+   "label": 1,
+   "image": "f069.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1664,
+   "has_reference": true,
+   "boxes": [
+    [
+     255,
+     291,
+     62,
+     20
+    ],
+    [
+     908,
+     54,
+     34,
+     99
+    ],
+    [
+     611,
+     75,
+     150,
+     32
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 1740,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 70,
+   "offset_s": 1800,
+   "label": 1,
+   "image": "f070.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.2277,
+   "has_reference": true,
+   "boxes": [
+    [
+     261,
+     291,
+     56,
+     15
+    ],
+    [
+     908,
+     54,
+     34,
+     99
+    ],
+    [
+     930,
+     229,
+     30,
+     94
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 1800,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 71,
+   "offset_s": 1860,
+   "label": 1,
+   "image": "f071.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.2165,
+   "has_reference": true,
+   "boxes": [
+    [
+     255,
+     291,
+     62,
+     16
+    ],
+    [
+     908,
+     54,
+     44,
+     99
+    ],
+    [
+     60,
+     26,
+     189,
+     93
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 1860,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 72,
+   "offset_s": 1920,
+   "label": 1,
+   "image": "f072.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1817,
+   "has_reference": true,
+   "boxes": [
+    [
+     908,
+     54,
+     34,
+     97
+    ],
+    [
+     477,
+     375,
+     483,
+     265
+    ],
+    [
+     368,
+     37,
+     40,
+     37
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 1920,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 73,
+   "offset_s": 1980,
+   "label": 1,
+   "image": "f073.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.2182,
+   "has_reference": true,
+   "boxes": [
+    [
+     262,
+     291,
+     57,
+     16
+    ],
+    [
+     908,
+     54,
+     44,
+     99
+    ],
+    [
+     880,
+     229,
+     80,
+     140
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 1980,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 74,
+   "offset_s": 2040,
+   "label": 1,
+   "image": "f074.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1578,
+   "has_reference": true,
+   "boxes": [
+    [
+     906,
+     50,
+     40,
+     103
+    ],
+    [
+     754,
+     0,
+     112,
+     156
+    ],
+    [
+     54,
+     26,
+     195,
+     94
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 2040,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 75,
+   "offset_s": 2100,
+   "label": 1,
+   "image": "f075.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1505,
+   "has_reference": true,
+   "boxes": [
+    [
+     906,
+     50,
+     49,
+     103
+    ],
+    [
+     78,
+     43,
+     171,
+     59
+    ],
+    [
+     755,
+     0,
+     111,
+     156
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 2100,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 76,
+   "offset_s": 2160,
+   "label": 1,
+   "image": "f076.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1795,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     0,
+     26,
+     46
+    ],
+    [
+     908,
+     54,
+     47,
+     106
+    ],
+    [
+     754,
+     0,
+     112,
+     160
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 2160,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 77,
+   "offset_s": 2220,
+   "label": 1,
+   "image": "f077.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1592,
+   "has_reference": true,
+   "boxes": [
+    [
+     908,
+     54,
+     47,
+     104
+    ],
+    [
+     0,
+     0,
+     25,
+     53
+    ],
+    [
+     0,
+     226,
+     241,
+     147
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 2220,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 78,
+   "offset_s": 2280,
+   "label": 1,
+   "image": "f078.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1634,
+   "has_reference": true,
+   "boxes": [
+    [
+     908,
+     54,
+     45,
+     98
+    ],
+    [
+     0,
+     0,
+     27,
+     53
+    ],
+    [
+     56,
+     24,
+     194,
+     94
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 2280,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 79,
+   "offset_s": 2340,
+   "label": 1,
+   "image": "f079.jpg",
+   "scored": true,
+   "prob": 0.9838,
+   "cv_score": 0.1282,
+   "has_reference": true,
+   "boxes": [
+    [
+     0,
+     0,
+     27,
+     58
+    ],
+    [
+     65,
+     18,
+     246,
+     97
+    ],
+    [
+     908,
+     54,
+     51,
+     131
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.9838,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 2340,
+       "confidence": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.9838
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  },
+  {
+   "i": 80,
+   "offset_s": 2400,
+   "label": 1,
+   "image": "f080.jpg",
+   "scored": true,
+   "prob": 0.8892,
+   "cv_score": 0.1583,
+   "has_reference": true,
+   "boxes": [
+    [
+     908,
+     54,
+     52,
+     99
+    ],
+    [
+     0,
+     0,
+     28,
+     58
+    ],
+    [
+     55,
+     26,
+     200,
+     92
+    ]
+   ],
+   "agent": {
+    "action": "escalate",
+    "reason": "persistent high-confidence plume on re-examination",
+    "confidence": 0.8892,
+    "reruns": 0,
+    "corroborated": false,
+    "trace": [
+     {
+      "kind": "tool_result",
+      "name": "detect",
+      "detail": {
+       "sequence": "20180719_Skyline_sp-n-mobo-c",
+       "offset_s": 2400,
+       "confidence": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "compare_history",
+      "detail": {
+       "samples": 21
+      }
+     },
+     {
+      "kind": "tool_result",
+      "name": "compare_history",
+      "detail": {
+       "baseline_p95": 0.2009,
+       "current": 0.8892
+      }
+     },
+     {
+      "kind": "tool_call",
+      "name": "check_neighbour",
+      "detail": {
+       "candidates": 0
+      }
+     },
+     {
+      "kind": "decision",
+      "name": "escalate",
+      "detail": {
+       "rule": "confident_or_corroborated"
+      }
+     }
+    ],
+    "guardrail": null
+   }
+  }
+ ],
+ "threshold": 0.7668,
+ "image_width": 640,
+ "stats": {
+  "frames": 81,
+  "scored": 74,
+  "positives": 41,
+  "detector_alerts": 50,
+  "detector_false_alarms": 9,
+  "agent_escalations": 50,
+  "agent_suppressions": 0,
+  "agent_suppressed_true_smoke": 0,
+  "neighbours": []
+ }
+}

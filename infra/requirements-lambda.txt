@@ -1,0 +1,7 @@
+# Runtime dependencies for the Lambda image. Deliberately a subset of
+# pyproject.toml: matplotlib, strands-agents and fastapi are development and
+# reporting dependencies and have no business in a scoring container.
+opencv-python-headless==5.0.0.93
+numpy>=2
+scikit-learn>=1.9.1
+joblib>=1.6.0

@@ -1,0 +1,46 @@
+{
+ "sequences": [
+  {
+   "sequence": "20190924_FIRE_sm-n-mobo-c",
+   "frames": 76,
+   "scored": 69,
+   "positives": 40,
+   "detector_alerts": 43,
+   "detector_false_alarms": 3,
+   "agent_escalations": 43,
+   "agent_suppressions": 0,
+   "agent_suppressed_true_smoke": 0,
+   "neighbours": [
+    "20190924_FIRE_lo-w-mobo-c"
+   ]
+  },
+  {
+   "sequence": "20170722_FIRE_so-s-mobo-c",
+   "frames": 81,
+   "scored": 62,
+   "positives": 41,
+   "detector_alerts": 42,
+   "detector_false_alarms": 3,
+   "agent_escalations": 31,
+   "agent_suppressions": 11,
+   "agent_suppressed_true_smoke": 11,
+   "neighbours": [
+    "20170722_FIRE_bm-n-mobo-c"
+   ]
+  },
+  {
+   "sequence": "20180719_Skyline_sp-n-mobo-c",
+   "frames": 81,
+   "scored": 74,
+   "positives": 41,
+   "detector_alerts": 50,
+   "detector_false_alarms": 9,
+   "agent_escalations": 50,
+   "agent_suppressions": 0,
+   "agent_suppressed_true_smoke": 0,
+   "neighbours": []
+  }
+ ],
+ "threshold": 0.7668,
+ "credit": "Imagery: HPWREN FIgLib (https://www.hpwren.ucsd.edu/), used with the required credit reference."
+}
