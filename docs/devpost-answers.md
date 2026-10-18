@@ -197,7 +197,7 @@ feed. Per-camera threshold calibration from each camera's own quiet hours after 
 | Architecture diagram (OpenCV 5 + AWS + agent components) | `docs/architecture.png` |
 | Agent workflow diagram | `docs/agent-workflow.png` |
 | Working endpoint **or** arranged screen-share | Screen-share offered; no endpoint exists |
-| Video, 5 minutes maximum, shows team / app / architecture / results | ~3 min 40 s |
+| Video, 5 minutes maximum, shows team / app / architecture / results | 3 min 43 s, 1280x800 H.264 |
 | Evaluation evidence including failure cases | `evaluation/` committed; failures in report sections 5, 7, 11 |
 | Zip archive | Built by `scripts/make_archive.sh`, excludes `.venv`, `data/`, caches, secrets |
 
