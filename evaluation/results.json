@@ -1,0 +1,72 @@
+{
+ "held_out": {
+  "auc": 0.8457,
+  "ap": 0.9063,
+  "rows": 2261,
+  "sequences": 43
+ },
+ "baseline_abs_luminance": {
+  "auc": 0.4398
+ },
+ "sweep": [
+  {
+   "target_fpr": 0.01,
+   "threshold": Infinity,
+   "fpr": 0.0,
+   "recall": 0.0,
+   "sequences_detected": 0,
+   "median_latency_s": null,
+   "p90_latency_s": null,
+   "false_alarms_per_camera_day": 0.0,
+   "false_alarm_count": 0
+  },
+  {
+   "target_fpr": 0.05,
+   "threshold": 0.8892,
+   "fpr": 0.0248,
+   "recall": 0.4886,
+   "sequences_detected": 36,
+   "median_latency_s": 1110.0,
+   "p90_latency_s": 2037.5,
+   "false_alarms_per_camera_day": 20.4,
+   "false_alarm_count": 17
+  },
+  {
+   "target_fpr": 0.1,
+   "threshold": 0.7668,
+   "fpr": 0.1051,
+   "recall": 0.7348,
+   "sequences_detected": 43,
+   "median_latency_s": 420.0,
+   "p90_latency_s": 1668.0,
+   "false_alarms_per_camera_day": 86.4,
+   "false_alarm_count": 72
+  },
+  {
+   "target_fpr": 0.2,
+   "threshold": 0.2009,
+   "fpr": 0.1985,
+   "recall": 0.7963,
+   "sequences_detected": 43,
+   "median_latency_s": 240.0,
+   "p90_latency_s": 1235.6,
+   "false_alarms_per_camera_day": 163.2,
+   "false_alarm_count": 136
+  }
+ ],
+ "model_kind": "tree3",
+ "features": [
+  "lum_signed",
+  "lum_dark_frac",
+  "tex_drop",
+  "desat",
+  "area_frac",
+  "compactness",
+  "aspect",
+  "centroid_y_rel",
+  "band_cover",
+  "edge_density",
+  "area_slope_per_min",
+  "drift_coherence"
+ ]
+}

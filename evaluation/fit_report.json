@@ -1,0 +1,18 @@
+{
+ "results": {
+  "logreg": {
+   "cv_auc": 0.8153,
+   "cv_ap": 0.901
+  },
+  "tree3": {
+   "cv_auc": 0.8371,
+   "cv_ap": 0.9059
+  }
+ },
+ "best": "tree3",
+ "explain": {
+  "tree": "|--- band_cover <= 1.63\n|   |--- desat <= -1.41\n|   |   |--- edge_density <= -0.72\n|   |   |   |--- class: 1\n|   |   |--- edge_density >  -0.72\n|   |   |   |--- class: 0\n|   |--- desat >  -1.41\n|   |   |--- tex_drop <= -3.65\n|   |   |   |--- class: 1\n|   |   |--- tex_drop >  -3.65\n|   |   |   |--- class: 0\n|--- band_cover >  1.63\n|   |--- band_cover <= 4.57\n|   |   |--- centroid_y_rel <= 5.67\n|   |   |   |--- class: 1\n|   |   |--- centroid_y_rel >  5.67\n|   |   |   |--- class: 0\n|   |--- band_cover >  4.57\n|   |   |--- lum_dark_frac <= -2.14\n|   |   |   |--- class: 1\n|   |   |--- lum_dark_frac >  -2.14\n|   |   |   |--- class: 1\n"
+ },
+ "n_rows": 1968,
+ "n_sequences": 35
+}

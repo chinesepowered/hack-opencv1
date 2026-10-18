@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+.env.local
+data/
+out*/
+*.mp4
+*.webm
+*.mp3
+.pytest_cache/
+.aws-sam/
+*.zip

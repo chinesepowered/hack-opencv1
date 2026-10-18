@@ -1,0 +1,28 @@
+[project]
+name = "smoke-sentinel"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "chinesepowered", email = "22500229+chinesepowered@users.noreply.github.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.141.1",
+    "joblib>=1.6.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2",
+    "opencv-python-headless==5.0.0.93",
+    "pillow>=12.3.0",
+    "python-dotenv>=1.2.3",
+    "scikit-learn>=1.9.1",
+    "strands-agents[openai]>=1.56.0",
+    "uvicorn[standard]>=0.53.0",
+]
+
+[project.scripts]
+smoke-sentinel = "smoke_sentinel:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
