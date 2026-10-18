@@ -20,8 +20,14 @@ dependencies = [
     "uvicorn[standard]>=0.53.0",
 ]
 
-[project.scripts]
-smoke-sentinel = "smoke_sentinel:main"
+# The importable package is `sentinel`, not `smoke_sentinel`. `uv init` left a
+# stub package behind that was removed once the real code existed, which made
+# `uv sync` fail on a fresh clone with "Expected a Python module at
+# src/smoke_sentinel/__init__.py". The module path is stated explicitly here so
+# the distribution name and the import name are allowed to differ.
+[tool.uv.build-backend]
+module-name = "sentinel"
+module-root = "src"
 
 [build-system]
 requires = ["uv_build>=0.12.5,<0.13.0"]
