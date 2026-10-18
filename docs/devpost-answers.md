@@ -9,23 +9,21 @@ Prepared answers for **OpenCV AI Competition 2026, powered by AWS** (`opencv26`)
 
 ### Special Award Consideration (dropdown, optional, multi-select)
 
-**Leave empty. Select neither award.**
+**Select Agentic Vision Award. Do not select Best Use of COOL.**
+
+**Agentic Vision Award: selected.** The entry meets the stated bar on the facts: OpenCV 5 output
+changes the next tool call and the final action, the decisions are traced, and the repository has the
+agent workflow diagram and the human-control story the award asks for. The honest part of the claim
+is that we measured the loop properly and it came out net negative at our operating point, so it is
+disabled in the reported system and written up as a measured negative result in `docs/report.md`
+section 7. That disclosure stays in the project description, the README and the video. The award is
+scored on the agentic work and its evidence, and the evidence here is unusually complete, including
+the part that did not work.
 
 **Best Use of COOL Award: not eligible, do not select.** We never used the Cloud-Optimized OpenCV
 Library. There is no AWS account, no Graviton instance, and no COOL workload anywhere in this
 project. Eligibility requires that "COOL must execute the claimed core workload on AWS Graviton",
 which did not happen, so selecting this would be a false claim.
-
-**Agentic Vision Award: eligible on paper, deliberately not selected.** The verification loop does
-meet the stated bar, in that OpenCV output changes the next tool call and the final action, and the
-repository has the workflow diagram, the traces and the human-control story the award asks for. We
-are not selecting it because **the loop did not work**: measured on held-out cameras it removed 7.0%
-of false alarms at a cost of 9.3% of recall, missed the bar we set beforehand, and is disabled in the
-reported system. Submitting a loop we measured as a net negative for an award about agentic
-effectiveness is not a claim we are willing to make.
-
-> If the submitter disagrees, this is their call to make, not ours. The evidence either way is in
-> `docs/report.md` section 7, and the number to weigh is the 9.3% recall cost.
 
 ### Repository URL (required)
 
@@ -105,7 +103,7 @@ benchmarks, no Graviton numbers and no live endpoint, because we never ran any. 
 a stack to come up.
 
 **Live screen-share:** happy to arrange one at any time convenient to the judges, running the
-pipeline end to end on cached sequences and on a fresh download.
+pipeline end to end on cached sequences and on a fresh download. Email clai74@mail.ccsf.edu.
 
 ---
 
@@ -205,6 +203,8 @@ feed. Per-camera threshold calibration from each camera's own quiet hours after 
 
 * **No COOL.** It was not used at all.
 * **No AWS deployment**, no endpoint URL, no Graviton or cost numbers. The stack was never applied.
-* **No agentic win.** The loop is a measured negative result and is disabled.
+* **No agentic win.** Agentic Vision is entered on the work and its traces, but the loop is a
+  measured negative result and is disabled at the reported operating point. Never describe it as an
+  improvement, and never quote the 7.0% false-alarm reduction without the 9.3% recall cost beside it.
 * Do not describe the demo interface as a live pipeline. It is a replay of a real run, and it says
   so on screen.
