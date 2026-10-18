@@ -238,6 +238,7 @@ window.sentinel = {
     return k;
   },
   frames: () => state.pack.frames.length,
+  data: () => state.pack.frames,
   at: () => state.i,
 };
 

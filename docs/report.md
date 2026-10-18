@@ -492,7 +492,67 @@ account, and section 11 counts that as a limitation rather than a feature.
 
 ---
 
-## 12. Reproducing every number
+## 12. Who this is for, and responsible use
+
+### Who it is for
+
+The user is a **fire-watch dispatcher or duty officer** at an agency that already operates a camera
+network: CAL FIRE's ALERTCalifornia operators, a county emergency operations centre, or a utility
+monitoring its own right-of-way. They already have the cameras and the authority to act; what they
+do not have is enough attention to cover every feed every minute.
+
+The secondary user is the **operations engineer** who has to live with the alert volume, which is
+why section 5 treats false alarms per camera-day as the headline rather than a footnote.
+
+This is **not** a consumer product and not a public-facing alerting service. Nothing in it is
+designed for an untrained user to act on alone.
+
+### Responsible use
+
+**The system escalates to a human and never dispatches.** The terminal actions in
+`src/sentinel/agent.py` are *escalate with evidence* or *suppress with a reason*. There is no code
+path that contacts an agency, triggers an alarm, or takes any action in the world. That is a
+deliberate design constraint, not an unfinished feature: at 86 false alarms per camera-day, an
+autonomous alerting system would be actively harmful, and at any false-alarm rate the decision to
+commit fire crews belongs to people who are accountable for it.
+
+**Every alert carries its evidence.** The operator card shows the score, the candidate region, the
+threshold and the full verification trace, so a dispatcher can disagree with the system on the
+evidence rather than on trust. The guardrails are pure functions in code, auditable and testable,
+rather than instructions in a prompt.
+
+**Known ways this system could do harm, stated rather than discovered later:**
+
+* **Automation complacency.** A system that is right often enough to be trusted and wrong often
+  enough to matter is the worst case for a human monitor. At this false-alarm rate, the realistic
+  deployment is as an *attention router* that orders feeds for review, not as an alarm.
+* **Missed fires create false assurance.** Recall is 0.735 at the reported operating point and the
+  screening discards 82% of the catalogue. A camera that is quiet has not been cleared. This must be
+  stated in any operator training, or the system makes things worse than no system.
+* **Night is not covered.** The approach has no basis after dark, and silently returning "clear"
+  overnight would be dangerous. `handler.py` returns an explicit non-answer rather than a zero when
+  it cannot score, which is the same principle applied at the frame level.
+* **Unequal coverage.** Camera networks are denser near wealthier and more populated areas.
+  Anything built on them inherits that bias, and a per-camera calibrated system does not correct it.
+
+**Privacy.** FIgLib imagery is long-range landscape photography from public agency cameras; it
+contains no identifiable people at this distance. The pipeline measures region statistics and stores
+no identities, and the deployment design expires frames after 14 days. A deployment pointing cameras
+at populated areas rather than ridgelines would be a materially different privacy question and is
+out of scope here.
+
+**Data terms.** HPWREN FIgLib requires a credit reference in derivative work, which this report, the
+README, the interface and the demo video all carry. We declined the AI For Mankind annotations
+because their NonCommercial licence conflicts with a competition entry that may be commercialised,
+rather than using them and hoping nobody checked. See [`DATA.md`](DATA.md).
+
+**No fabricated results.** There is no AWS deployment, so there are no cloud numbers. The agent
+layer did not work, so it is reported as a negative result rather than quietly dropped. Both of
+those were tempting to present otherwise, and section 10 and section 7 say plainly what happened.
+
+---
+
+## 13. Reproducing every number
 
 ```bash
 uv sync
@@ -520,7 +580,7 @@ uv run python -m http.server 3041 --directory web
 
 ---
 
-## 13. Credits and terms
+## 14. Credits and terms
 
 * Imagery: **HPWREN FIgLib**, <https://www.hpwren.ucsd.edu/>. Their terms require a credit reference
   in derivative work, which this is. Their disclaimer: *"This data is provided as-is, no guarantees

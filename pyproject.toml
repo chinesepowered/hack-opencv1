@@ -1,7 +1,7 @@
 [project]
 name = "smoke-sentinel"
 version = "0.1.0"
-description = "Add your description here"
+description = "Early wildfire smoke detection on fixed camera networks with OpenCV 5"
 readme = "README.md"
 authors = [
     { name = "chinesepowered", email = "22500229+chinesepowered@users.noreply.github.com" }
